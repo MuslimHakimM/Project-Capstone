@@ -1,0 +1,15 @@
+package com.bangkit.healthyme.ui.utils
+
+const val BASE_URL = "https://healthyme-auth.et.r.appspot.com"
+const val RETROFIT_TAG = "Retrofit"
+const val SHARED_PREFERENCES = "shared_preferences"
+const val PREFS_NAME = "login"
+const val NAME = "name"
+const val ACCESSTOKEN = "accessToken"
+const val USER_ID = "userId"
+const val LOGIN_STATE = "login_state"
+const val USEREMAIL = "userEmail"
+const val FOOD = "food"
+const val FOOD2 = "food2"
+const val FOOD3 = "food3"
+const val FOOD4 = "food4"

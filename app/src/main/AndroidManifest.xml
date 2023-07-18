@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthyMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activity.ActivityStarted"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivityDetail"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivitySearch"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivityLogin"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivityRegister"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.BMIActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivityMain"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivityAbout"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.activity.ActivitySplash"
+            android:exported="true"
+            android:theme="@style/Theme.HealthyMe.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.bangkit.healthyme"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="email">Email</string>
+    <string name="invalid_email">Invalid_Email</string>
+    <string name="password_error">Your password must be at least 8 character length</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Ingat Saya</string>
+    <string name="forgot_password">Tidak ingat Sandi</string>
+    <string name="masuk">Masuk</string>
+    <string name="nama">Nama</string>
+    <string name="daftar">Daftar</string>
+    <string name="logo">logo</string>
+    <string name="calculator_bmi">Kalkulator BMI</string>
+    <string name="input_data">Masukan data Anda :</string>
+    <string name="kg">Berat(Kg)</string>
+    <string name="cm">Tinggi(Cm)</string>
+    <string name="calculate">HITUNG</string>
+    <string name="app_name">HealthyMe</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="imageuser">imageUser</string>
+    <string name="healthyme">HealthyMe</string>
+    <string name="apk_hitung">Aplikasi penghitung kalori pilih menu\nyang sesuai untuk kebutuhan anda</string>
+    <string name="desk_makan">Mencari Makanan atau Merek</string>
+    <string name="desk_kalori">Cek kalori makanan dan cek berbagai merek makanan</string>
+    <string name="bmi_kalkulator">BMI Kalkulator</string>
+    <string name="hitung_indeks">Hitung Indeks Massa tubuh kamu</string>
+    <string name="about">About</string>
+    <string name="info">Info mengenai Aplikasi Kami       </string>
+    <string name="about_desc">Projek ini merupakan capstone akhir sekaligus\nsalah satu syarat kelulusan di Program Bangkit.\n\n Seluruh kode yang pengembang buat dapat diakses <a href="https://github.com/Dimasputra21/HealthyMe-C23-PC663"> di sini</a>.\n\nTerimakasih untuk semua yang telah membantu\ndalam mengembangkan aplikasi ini. Semoga\naplikasi ini bermanfaat untuk kita semua. :)</string>
+</resources>
